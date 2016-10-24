@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<!-- meta for days -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Your page description here" />
+	<meta name="keywords" content="sidebar, off-canvas, menu, navigation, effect, inspiration, css transition, SVG, morphing, animation" />
+	<meta name="author" content="Bob Dempsey" />
+	<!-- meta for days -->
+
+	<!-- bootstrap css & font awesome cdn links -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+	<!-- favicon link -->
+	<link rel="shortcut icon" href="assets/images/favicon.png">
+
+	<!-- normalize cdn & local css link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="scrolling-nav.css">
+	<link rel="stylesheet" href="assets/css/images.css">
+
+	<!-- google font link -->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+
+	<title>Bob Dempsey - UCF Coding Bootcamp</title>
+
+</head>
+
+<body>
+
+	<!-- floating social share widget with included styling & js script-->
+	<div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style a2a-bg" style="left:0px; top:150px;">
+		<a class="a2a_button_facebook"></a>
+		<a class="a2a_button_twitter"></a>
+		<a class="a2a_button_google_plus"></a>
+		<a class="a2a_button_pinterest"></a>
+		<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+	</div>
+
+	<script async src="https://static.addtoany.com/menu/page.js"></script>
+	<!-- floating social share widget with included styling & js script-->
+
+
+	<!-- jquery page loader -->
+	<!-- <div id="loader-left"></div> -->
+	<!-- jquery page loader -->
+
+	<!-- top navbar !! not inside container -->
+
+	<nav class="navbar navbar-default navbar-fixed-top navbar-game" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle hamburger-menu" data-toggle="collapse" data-target="#navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar one"></span>
+					<span class="icon-bar two"></span>
+					<span class="icon-bar three"></span>
+				</button>
+				<a class="navbar-brand navbar-brand-white">Bob Dempsey - UCF Coding Boot Camp</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+					<!-- <li class="active"><a href="#">About</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Contact</a></li> -->
+				</ul>
+				<!-- social media icons -->
+				<ul class="nav navbar-nav navbar-right social">
+					<li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
+					<li><a href="#"><i class="fa fa-lg fa-linkedin"></i></a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
+	<!-- top navbar !! not inside container -->
+
+	<!-- <div class="container">  --><!-- container/wrapper for page content -->
+
+	<!-- page content -->
+
+	<!-- get started jumbotron -->
+	<!-- <div class="row">  --><!-- jumbotron row-->
+	<!-- <div class="jumbotron" id="get-started-jumbotron"> --> <!-- jumbotron -->
+				<!-- <h1 class="text-center">Comedy Movie Trivia!</h1>
+				<p class="lead text-center"> Test your comedy movie knowledge with this game referencing some of the most hilarious movies.</p><br><br> -->
+				<!-- button row -->
+				<!-- <div class="row text-center">
+				<a class="btn btn-lg btn-primary btn-cta" href="#" role="button" button onclick="getStarted()">Start &raquo;</a> -->
+				<!-- <a class="btn btn-lg btn-info btn-cta" href="#" role="button"> <i class="fa fa-info-circle"></i> Info</a> -->
+				<!-- </div> --> <!-- button row -->
+				<!-- </div> --> <!-- jumbotron-->
+				<!-- </div> --> <!-- jumbotron row-->
+				<!-- get started jumbotron -->
+
+				<!-- page content -->
+
+				<!-- </div> --> <!-- container/wrapper for page content -->
+
+
+
+				<div class="container-fluid">
+					<div class="container">
+						<div id="main-jumbotron" class="jumbotron">
+							<h1 class="text-center h1">Comedy Movies Trivia Game!</h1><br><br>
+							<div class="question text-center panel panel-heading h2"></div><br><br>
+							<ul class="choiceList list-unstyled h3"></ul>
+							<div class="quizMessage text-center h3"></div>
+							<div class="result text-center h3"></div>
+							<div class="btn btn-large btn-primary nextButton">Next Question</div>
+						</div>
+
+							<div class="jumbotron jumbotron-2">
+							<div class="result text-center h3"></div>
+							<div id="thumbsWrapper">
+							<div id="imgThumbs"></div>
+							</div>
+							<div id="imgDisplay">
+							</div><br>
+							<div id="next-button-2" class="btn btn-large btn-primary nextButton">Next Question</div>
+						</div>
+							
+
+
+					</div>
+					<!-- </container> -->
+
+					<!-- sticky footer -->
+
+	<!-- <footer class="navbar navbar-default navbar-static-bottom sticky-footer">
+		<div class="container">
+			<span class="text-muted"> &#x000A9; 2016 Bob Dempsey - UCF Coding Boot Camp</span> -->
+			<!-- social media icons -->
+	<!-- 		<ul class="nav navbar-nav navbar-right social">
+				<li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
+				<li><a href="#"><i class="fa fa-lg fa-linkedin"></i></a></li>
+			</ul>
+		</div>
+	</footer>
+</div> -->
+
+<!-- sticky footer -->
+
+<!-- JS & BS jQuery links -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Game JS -->
+<script src="assets/javascript/game.js"></script>
+
+<!-- scrolling nav js -->
+<script src="assets/javascript/scrolling-nav.js"></script>
+
+<!-- jquery page loader animation -->
+<script src="assets/javascript/animation.js"></script>
+
+<!-- hamburger menu js !! call @ end or will not work -->
+<script type="text/javascript" src="assets/javascript/hamburger.js"></script>
+
+<script type="text/javascript" src="jssocials2.js"></script>
+<script type="text/javascript" src="assets/javascript/images.js"></script>
+
+</body>
+
+</html>
